@@ -1,4 +1,4 @@
-条件判断
+# 条件判断
 def isPhoneNumber(text):
     if len(text) != 12:
         return False
@@ -27,7 +27,7 @@ print('done')
 
 
 
-#正则匹配
+# 正则匹配
 import  re
 
 phoneNumTegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
