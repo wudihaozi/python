@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 N = 20
-
+# np.random.random(N) 生成N个[0-1)之间的浮点数
 plt.scatter(
     np.random.random(N) * 100,
     np.random.random(N) * 100,
