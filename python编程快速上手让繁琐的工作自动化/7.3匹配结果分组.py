@@ -4,7 +4,7 @@ import  re
 
 phoneNumTegex = re.compile(r'(\d\d\d)-(\d\d\d)-(\d\d\d\d)')
 mo = phoneNumTegex.search('My number is 415-555-4242.')
-print('Phone number foun: ' + mo.group())
+print('Phone number found: ' + mo.group())
 
 print(mo.group(0))
 # 415-555-4242
