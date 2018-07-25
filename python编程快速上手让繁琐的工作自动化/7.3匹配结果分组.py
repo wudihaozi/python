@@ -1,5 +1,5 @@
 
-#匹配结果分组
+# 鍖归厤缁撴灉鍒嗙粍
 import  re
 
 phoneNumTegex = re.compile(r'(\d\d\d)-(\d\d\d)-(\d\d\d\d)')
